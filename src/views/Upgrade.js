@@ -30,7 +30,7 @@ import {
   Col,
 } from "reactstrap";
 
-class Upgrade extends React.Component {
+class Catwalk extends React.Component {
   render() {
     return (
       <>
@@ -150,4 +150,4 @@ class Upgrade extends React.Component {
   }
 }
 
-export default Upgrade;
+export default Catwalk;

@@ -34,9 +34,7 @@ import {
   Col,
 } from "reactstrap";
 
-import {
- LuxuryBrands 
-} from "variables/charts.js";
+import LuxuryBrands from 'variables/charts.js';
 
 class User extends React.Component {
   render() {
@@ -45,8 +43,9 @@ class User extends React.Component {
         <div className="content">
           <p>Here you can see the influence of the top luxury brand during the last fashion shows.</p>
           <p className="card-category">Click on one brand to see new trends</p>
-       
+        
         <Card>
+
         <Bar data={LuxuryBrands.data}
             width={100}
             height={45}

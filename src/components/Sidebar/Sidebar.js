@@ -56,6 +56,7 @@ class Sidebar extends React.Component {
         data-color={this.props.bgColor}
         data-active-color={this.props.activeColor}
       >
+           
         {/* <div className="logo">
           <a
             href="https://www.creative-tim.com"
@@ -73,9 +74,11 @@ class Sidebar extends React.Component {
           </a>
         </div> */}
         <div className="sidebar-wrapper" ref={this.sidebar}>
+        <div><h5>politowearsprada</h5></div>
           <Nav>
             {this.props.routes.map((prop, key) => {
               return (
+                
                 <li
                   className={
                     this.activeRoute(prop.path) +

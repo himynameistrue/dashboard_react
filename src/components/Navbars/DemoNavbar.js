@@ -37,6 +37,9 @@ import {
 } from "reactstrap";
 
 import routes from "routes.js";
+import img from "../../assets/img/logoBrand.png";
+import Image from 'react-bootstrap/Image';
+
 
 class Header extends React.Component {
   constructor(props) {
@@ -162,14 +165,6 @@ class Header extends React.Component {
               </InputGroup>
             </form> */}
             <Nav navbar>
-              <NavItem>
-                <Link to="#pablo" className="nav-link btn-magnify">
-                  <i className="nc-icon nc-layout-11" />
-                  <p>
-                    <span className="d-lg-none d-md-block">Stats</span>
-                  </p>
-                </Link>
-              </NavItem>
               <Dropdown
                 nav
                 isOpen={this.state.dropdownOpen}
@@ -182,9 +177,8 @@ class Header extends React.Component {
                   </p>
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem tag="a">Action</DropdownItem>
-                  <DropdownItem tag="a">Another Action</DropdownItem>
-                  <DropdownItem tag="a">Something else here</DropdownItem>
+                  <DropdownItem tag="a">Last Tweets</DropdownItem>
+                  <DropdownItem tag="a">Fashion News</DropdownItem>
                 </DropdownMenu>
               </Dropdown>
               <NavItem>
@@ -194,6 +188,14 @@ class Header extends React.Component {
                     <span className="d-lg-none d-md-block">Account</span>
                   </p>
                 </Link>
+              </NavItem>
+              <NavItem>
+                  <p>
+                    <span>Miroglio group </span>
+                  </p>
+                <Image src={img} rounded width="40"/>
+                  
+                
               </NavItem>
             </Nav>
           </Collapse>

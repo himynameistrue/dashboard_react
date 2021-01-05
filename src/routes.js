@@ -23,7 +23,7 @@ import Typography from "views/Typography.js";
 import TableList from "views/Tables.js";
 import Maps from "views/Fabric.js";
 import UserPage from "views/User.js";
-import UpgradeToPro from "views/Upgrade.js";
+import Catwalk from "views/Upgrade.js";
 
 var routes = [
   {
@@ -75,14 +75,12 @@ var routes = [
     component: Typography,
     layout: "/admin",
   },
-  // {
-  //   pro: true,
-  //   path: "/upgrade",
-  //   name: "Settings",
-  //   icon: "nc-icon nc-spaceship",
-  //   component: UpgradeToPro,
-  //   layout: "/admin",
-  // },
+  {
+     path: "/catwalk",
+     name: "Catwalk",
+     component: Catwalk,
+     layout: "/admin",
+   },
   // {
   //   pro: true,
   //   path: "/upgrade",
@@ -92,4 +90,5 @@ var routes = [
   //   layout: "/admin",
   // },
 ];
+
 export default routes;

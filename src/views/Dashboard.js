@@ -145,7 +145,7 @@ const words=
           fontWeight: "normal",
           padding: 0,
           rotations: 0,
-          rotationAngles: [0, -90],
+          rotationAngles: [0, 0],
           scale: "sqrt",
           spiral: 'archimedean',
           transitionDuration: 1000,

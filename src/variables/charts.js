@@ -1434,12 +1434,17 @@ const LuxuryBrands = {
       "Balmain",
       "Gucci",
       "Fendi",
-      "Celine"
+      "Celine",
+      "Dior",
+      "Simone",
+      "Chanel",
+      "Ford",
+      "Armani",
      ], 
     datasets: [
       {
         label: "Luxury Brand",
-        data: [21749, 14159, 9647, 1514, 1423],
+        data: [21749, 14159, 9647, 1514, 1423, 1224, 323, 291, 195, 194],
         fill: true,
         borderColor: "#98C1D9",
         backgroundColor: "#98C1D9",

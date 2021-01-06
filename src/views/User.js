@@ -42,34 +42,6 @@ import {
  LuxuryBrands 
 } from "variables/charts.js";
 
-import {
-  catwalkBarChart
- } from "variables/catwalkBarChart.js";
- 
-
-const LuxuryBrandsOptions = {
-  /*onClick: (e, element) => {
-    if (element.length > 0) {
-      alert("");
-      //return (<Redirect push to='/dashboard' />)
-      //e.props.history.push('/dashboard');
-      window.location.href="/dashboard"
-    }
-  },*/
-  
-  legend: {
-    display: true,
-    position: "top",
-  },
-  scales: {
-    yAxes: [{
-      scaleLabel: {
-        display: true,
-        labelString: 'Number of interactions'
-      }
-    }]
-  }
-};
 
 
 
@@ -77,48 +49,15 @@ var defaultMessage = 'Click on the plot to see the value along with the label';
 
 
 class User extends React.Component {
-  /*constuctor() {
-    this.routeChange = this.routeChange.bind(this);
+  constructor(props) {
+    super(props);
+    this.state = { chosen : "" };
   }
 
-  routeChange() {
-    let path = `newPath`;
-    this.props.history.push(path);
+  changeSelected = (name) => {
+    this.setState( {chosen: name});
   }
 
-constructor(props) {
-  super(props);
-
-  this.state = {
-    message: '',
-    enabled: false
-  }
-
-  this.trackPlotClick = this.trackPlotClick.bind(this);
-  this.resetChart = this.resetChart.bind(this);
-  this.dataPlotClick = this.dataPlotClick.bind(this);
-}
-trackPlotClick() {
-  FusionCharts.addEventListener('dataplotClick', this.dataPlotClick);
-  this.setState({
-      message: defaultMessage,
-      enabled: true
-  });
-}
-dataPlotClick(eventObj, dataObj) {
-  this.setState({
-      message: [
-          'You have clicked on plot ',
-          <strong>{dataObj.categoryLabel}</strong>,
-          ' whose value is ',
-          <strong>{dataObj.displayValue}</strong>
-      ]
-  });
-}*/
-
-handleChartClick(element) {
-  
-}
   render() {
     return (
       <>
@@ -130,16 +69,32 @@ handleChartClick(element) {
         <Bar data={LuxuryBrands.data}
             width={100}
             height={45}
-            options={LuxuryBrandsOptions}
-            //redirectPage = {this.redirectPage}
+            options={LuxuryBrands.options}
+            changeSelected = {this.changeSelected}
             onElementsClick={elem => {
               var label = LuxuryBrands.data.labels;
-              console.log("Name:", label[elem[0]._index]);
-              if(label === "Versace")
-              this.props.history.push('/dashboard');
+              label = label[elem[0]._index];
+              console.log("Name:", label);
+              if(label === "Versace"){
+                console.log(label === "Versace")
+                this.props.history.push({pathname: '/admin/catwalk/versace', state: this.state});
+              }
+              if(label === "Balmain"){
+                console.log(label === "Balmain")
+                this.props.history.push({pathname: '/admin/catwalk/balmain', state: this.state});
+              }
+              if(label === "Gucci"){
+                console.log(label === "Gucci")
+                this.props.history.push({pathname: '/admin/catwalk/gucci', state: this.state});
+              }
+              /*if(!(label === "Balmain")){
+                this.props.history.push({pathname: '/admin/balmain', state: this.state});
+              }
+              if(!(label === "Gucci")){
+                this.props.history.push({pathname: '/admin/gucci', state: this.state});
+              }
+             */
             }}
-            
-            
             
         />
          

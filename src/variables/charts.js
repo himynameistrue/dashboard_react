@@ -1430,60 +1430,20 @@ const MotiviOltreFashion = {
 const LuxuryBrands = {
   data: {
     labels: [
-      "Luxury Brand"
+      "Versace",
+      "Balmain",
+      "Gucci",
+      "Fendi",
+      "Celine"
      ], 
     datasets: [
       {
-        label: "Versace",
-        data: [21749],
+        label: "Luxury Brand",
+        data: [21749, 14159, 9647, 1514, 1423],
         fill: true,
-        borderColor: "#654236",
-        backgroundColor: "#654236",
-        pointBorderColor: "#654236",
-        pointRadius: 1,
-        pointHoverRadius: 2,
-        pointBorderWidth: 4,
-      },
-      {
-        label: "Balmain",
-        data: [14159],
-        fill: true,
-        borderColor: "#E24E1B",
-        backgroundColor: "#E24E1B",
-        pointBorderColor: "#E24E1B",
-        pointRadius: 1,
-        pointHoverRadius: 2,
-        pointBorderWidth: 4,
-      },
-      {
-        label: "Gucci",
-        data: [9647],
-        fill: true,
-        borderColor: "#DA7635",
-        backgroundColor: "#DA7635",
-        pointBorderColor: "#DA7635",
-        pointRadius: 1,
-        pointHoverRadius: 2,
-        pointBorderWidth: 4,
-      },
-      {
-        label: "Fendi",
-        data: [1514],
-        fill: true,
-        borderColor: "#DB995A",
-        backgroundColor: "#DB995A",
-        pointBorderColor: "#DB995A",
-        pointRadius: 1,
-        pointHoverRadius: 2,
-        pointBorderWidth: 4,
-      },
-      {
-        label: "Celine",
-        data: [1423],
-        fill: true,
-        borderColor: "#D6D4A0",
-        backgroundColor: "#D6D4A0",
-        pointBorderColor: "#D6D4A0",
+        borderColor: "#98C1D9",
+        backgroundColor: "#98C1D9",
+        pointBorderColor: "#98C1D9",
         pointRadius: 1,
         pointHoverRadius: 2,
         pointBorderWidth: 4,
@@ -1495,6 +1455,14 @@ const LuxuryBrands = {
       display: true,
       position: "top",
     },
+    scales: {
+      yAxes: [{
+        scaleLabel: {
+          display: true,
+          labelString: 'Number of interactions'
+        }
+      }]
+    }
   },
 };
 
@@ -1510,5 +1478,5 @@ module.exports = {
   MotiviMiroglio,
   MotiviOltreFashion,
   MotiviPerte,
-  LuxuryBrands
+  LuxuryBrands,
 };

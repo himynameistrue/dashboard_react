@@ -14,11 +14,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [1906
-            ,596
-            ,90
-            ,16
-            ,1 ],
+            data: [0.7305,0.2284,0.0344,0.0061,0.0003],
            
           },
         ],
@@ -87,10 +83,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [101
-            ,66
-            ,6
-            ,2
+            data: [0.5804,0.3793,0.0344,0.0057
              ],
            
           },
@@ -160,11 +153,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [33
-            ,26
-            ,10
-            ,5 
-            ,3,
+            data: [0.3376,0.4285,0.1298,0.0649,0.0389
              ],
            
           },
@@ -234,11 +223,8 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [213
-            ,157
-            ,83
-            ,80
-            ,35 ],
+            data: [0.375
+              ,0.2764,0.1408,0.1461,0.0616],
            
           },
         ],
@@ -310,10 +296,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [323
-            ,45
-            ,9
-            ,4
+            data: [0.8477,0.1181,0.0236,0.0104
              ],
            
           },
@@ -383,11 +366,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [13
-            ,10
-            ,2
-            ,10
-            ,3,
+            data: [0.3421,0.2631,0.0526,0.2631,0.0789
              ],
            
           },
@@ -457,10 +436,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [140
-            ,44
-            ,5
-            ,1
+            data: [0.7368,0.2315,0.0263,0.0052
              ],
            
           },
@@ -529,11 +505,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [7
-            ,6
-            ,5
-            ,3
-            ,2 ],
+            data: [0.3043,0.2608,0.0869,0.2173,0.1304],
            
           },
         ],
@@ -603,10 +575,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [133
-            ,62
-            ,8
-            ,2,1,
+            data: [0.6456,0.3009,0.0388,0.0097,0.0048
              ],
            
           },
@@ -675,11 +644,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [9
-            ,4
-            ,2
-            ,3
-            ,4 ],
+            data: [0.4090,0.1818,0.0909,0.1363,0.1818],
            
           },
         ],
@@ -747,10 +712,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [372
-            ,145
-            ,21
-            ,2
+            data: [0.6888,0.2685,0.0388,0.0037
              ],
            
           },
@@ -819,11 +781,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [44
-            ,15
-            ,33
-            ,13
-            ,6 ],
+            data: [0.3963,0.1351,0.2972,0.1171,0.0540 ],
            
           },
         ],
@@ -891,10 +849,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [392
-            ,81
-            ,6
-            ,2
+            data: [0.8149,0.1683,0.0124,0.0041
              ],
            
           },
@@ -963,11 +918,10 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [12
-            ,6
-            ,1
-            ,4
-            ,1 ],
+            data: [,0.5
+              ,0.25
+              ,0.0416
+              ,0.1666,0.0416],
            
           },
         ],
@@ -1034,8 +988,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [14
-            ,1,
+            data: [0.9333,0.0666
            
              ],
            
@@ -1105,11 +1058,7 @@ const dashboardFabricData = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
             
             borderWidth: 0,
-            data: [11
-            ,14
-            ,5
-            ,8
-            ,3 ],
+            data: [0.2682,0.3414,0.1219,0.1951,0.0731],
            
           },
         ],

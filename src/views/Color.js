@@ -653,6 +653,23 @@ class Icons extends React.Component {
                 </CardFooter>
               </Card>
             </Col>
+            <Col md="6">
+              <Card>
+                <CardHeader>
+                  <CardTitle tag="h5">{this.state.name} Colors</CardTitle>
+                  <p className="card-category">Instagram</p>
+                </CardHeader>
+                <CardBody>
+                  <BoxContainer
+                  
+                  />
+                
+                </CardBody>
+                <CardFooter>
+                  <hr />
+                </CardFooter>
+              </Card>
+            </Col>
           </Row>
         </div>
       </>

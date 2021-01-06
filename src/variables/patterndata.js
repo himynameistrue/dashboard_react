@@ -16,13 +16,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [228
-            ,62
-            ,22
-            ,22
-            ,18 
-        ,15
-    ,14],
+            data: [0.6178,0.0919,0.0858,0.0655,0.0241,0.0513,0.0632],
            
           },
         ],
@@ -92,13 +86,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [267
-            ,30
-            ,123
-            ,42
-            ,30
-        ,30
-    ,46],
+            data: [0.4700,0.0528,0.2165,0.0739,0.0528,0.0528,0.0809],
            
           },
         ],
@@ -168,13 +156,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [228
-            ,62
-            ,22
-            ,22
-            ,18 
-        ,15
-    ,14],
+            data: [0.5984,0.1627,0.0577,0.0577,0.0472,0.0393,0.0367],
            
           },
         ],
@@ -244,13 +226,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [14
-            ,5
-            ,8
-            ,4
-            ,3 
-        ,3
-    ,1],
+            data: [0.3684,0.1315,0.2105,0.1052,0.0789,0.0789,0.0263],
            
           },
         ],
@@ -320,13 +296,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [122
-            ,3
-            ,28
-            ,3
-            ,1 
-        ,5
-    ,12],
+            data: [0.7011,0.0172,0.1609,0.0172,0.0057,0.0287,0.0689],
            
           },
         ],
@@ -396,13 +366,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [41
-            ,1
-            ,23
-            ,3
-            
-        ,3
-    ,6],
+            data: [0.5324,0.0129,0.2987,0.0389,0.0389,0.0779],
            
           },
         ],
@@ -472,13 +436,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [139
-            ,14
-            ,5
-            ,14
-            ,1 
-        ,6
-    ,11],
+            data: [0.7315,0.0736,0.0263,0.0736,0.0052,0.0315,0.0578],
            
           },
         ],
@@ -548,13 +506,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [9
-            ,3
-            ,2
-            ,3
-            ,1
-        ,3
-    ,2],
+            data: [0.3913,0.1304,0.0869,0.1304,0.0434,0.1304,0.0869],
            
           },
         ],
@@ -624,13 +576,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [65
-            ,57
-            ,20
-            ,22
-            ,10 
-        ,8
-    ,24],
+            data: [0.3155,0.2766,0.0970,0.1067,0.0485,0.0388,0.1165],
            
           },
         ],
@@ -700,13 +646,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [2
-            ,5
-            ,7
-            ,1
-            ,4
-        ,1
-    ,2],
+            data: [0.0909,0.2272,0.3181,0.0454,0.1818,0.0454,0.0909],
            
           },
         ],
@@ -776,13 +716,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [382
-            ,18
-            ,30
-            ,35
-            ,11 
-        ,26
-    ,38],
+            data: [0.7074,0.0333,0.0555,0.0648,0.0203,0.0481,0.0703],
            
           },
         ],
@@ -852,13 +786,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [58
-            ,8
-            ,17
-            ,12
-            ,1 
-        ,9
-    ,6],
+            data: [0.5225,0.0720,0.1531,0.1081,0.0090,0.0810,0.0540],
            
           },
         ],
@@ -928,13 +856,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [282
-            ,56
-            ,44
-            ,36
-            ,10 
-        ,44
-    ,9],
+            data: [0.5862,0.1164,0.0914,0.0748,0.0207,0.0914,0.0187],
            
           },
         ],
@@ -1004,10 +926,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [13
-            ,4
-            ,4
-            ,3
+            data: [0.5416,0.1666,0.1666,0.125
            ],
            
           },
@@ -1078,10 +997,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red", "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [5
-            ,4
-            ,2
-            ,4
+            data: [0.3333,0.2666,0.1333,0.2666
              
         
     ],
@@ -1154,13 +1070,7 @@ const totalPatternDatafs = {
             backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red" , "#C9F7EE","#F67DE0"],
             
             borderWidth: 0,
-            data: [20
-            
-            ,11
-            ,5
-            ,1 
-        ,1
-    ,3],
+            data: [0.4878,0.2682,0.1219,0.0243,0.0243,0.0731],
            
           },
         ],

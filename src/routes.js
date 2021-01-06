@@ -20,7 +20,7 @@ import Dashboard from "views/Dashboard.js";
 import Notifications from "views/Pattern.js";
 import Icons from "views/Color.js";
 import Typography from "views/Typography.js";
-import TableList from "views/Tables.js";
+import TableList from "views/Forcast.js";
 import Maps from "views/Fabric.js";
 import UserPage from "views/User.js";
 import UpgradeToPro from "views/Upgrade.js";

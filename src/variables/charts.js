@@ -9,7 +9,6 @@
 =========================================================
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-
 const dashboard24HoursPerformanceChart = {
   data: (canvas) => {
     return {
@@ -620,7 +619,7 @@ const skirtColorFs = {
 };
 
 
-
+// Miroglio
 const dashboardNASDAQChart = {
   data: {
    
@@ -692,7 +691,7 @@ const dashboardNASDAQChart = {
     ],
     datasets: [
       {
-        label: "chart6",
+        label: "Miroglio",
         data: [3
        ,2
         ,1
@@ -745,9 +744,9 @@ const dashboardNASDAQChart = {
         ,2
         ,1],
         fill: false,
-        borderColor: "#AA6F5D",
-        backgroundColor: "transparent",
-        pointBorderColor: "#AA6F5D",
+        borderColor: "#3D5A80",
+        backgroundColor: "#3D5A80",
+        pointBorderColor: "#3D5A80",
         pointRadius: 1,
         pointHoverRadius: 2,
         pointBorderWidth: 4,
@@ -775,16 +774,16 @@ const dashboardNASDAQChart = {
       yAxes: [{
         scaleLabel: {
           display: true,
-          labelString: 'Number of mentions'
+          labelString: 'Number of interactions'
         }
       }],
       xAxes: [{
         scaleLabel: {
           display: true,
-          labelString: 'Date'
+          labelString: 'Time'
         }
       }],
-    } 
+    }     
   },
 };
 
@@ -848,7 +847,7 @@ const MotiviMiroglio = {
     ],
     datasets: [
       {
-        label: "chart4",
+        label: "",
         data: [3
        ,2
         ,1
@@ -901,15 +900,15 @@ const MotiviMiroglio = {
         ,2
         ,1],
         fill: false,
-        borderColor: "#CC794E",
-        backgroundColor: "transparent",
-        pointBorderColor: "#CC794E",
+        borderColor: "#3D5A80",
+        backgroundColor: "#3D5A80",
+        pointBorderColor: "#3D5A80",
         pointRadius: 1,
         pointHoverRadius: 2,
         pointBorderWidth: 4,
       },
       {
-        label: "chart5",
+        label: "",
         data: [  13
           ,23
          ,23
@@ -965,9 +964,9 @@ const MotiviMiroglio = {
       ]
          ,
         fill: false,
-        borderColor: "#286F6F",
-        backgroundColor: "transparent",
-        pointBorderColor: "#286F6F",
+        borderColor: "#EE6C4D",
+        backgroundColor: "#EE6C4D",
+        pointBorderColor: "#EE6C4D",
         pointRadius: 1,
         pointHoverRadius: 2,
         pointBorderWidth: 4,
@@ -983,16 +982,16 @@ const MotiviMiroglio = {
       yAxes: [{
         scaleLabel: {
           display: true,
-          labelString: 'Number of mentions'
+          labelString: 'Number of interactions'
         }
       }],
       xAxes: [{
         scaleLabel: {
           display: true,
-          labelString: 'Date'
+          labelString: 'Time'
         }
       }],
-    } 
+    }     
   },
 };
 
@@ -1120,15 +1119,15 @@ const MotiviPerte = {
         ,2
         ,1],
         fill: false,
-        borderColor: "#286F6F",
-        backgroundColor: "transparent",
-        pointBorderColor: "#286F6F",
+        borderColor: "#3D5A80",
+        backgroundColor: "#3D5A80",
+        pointBorderColor: "#3D5A80",
         pointRadius: 1,
         pointHoverRadius: 2,
         pointBorderWidth: 4,
       },
       {
-        label:"chart 7",
+        label:"",
         data: [        
          13
 ,23
@@ -1185,9 +1184,9 @@ const MotiviPerte = {
       ]
          ,
         fill: false,
-        borderColor: "#CC794E",
-        backgroundColor: "transparent",
-        pointBorderColor: "#CC794E",
+        borderColor: "#EE6C4D",
+        backgroundColor: "EE6C4D",
+        pointBorderColor: "#EE6C4D",
         pointRadius: 1,
         pointHoverRadius: 2,
         pointBorderWidth: 4,
@@ -1203,16 +1202,16 @@ const MotiviPerte = {
       yAxes: [{
         scaleLabel: {
           display: true,
-          labelString: 'Number of mentions'
+          labelString: 'Number of interactions'
         }
       }],
       xAxes: [{
         scaleLabel: {
           display: true,
-          labelString: 'Date'
+          labelString: 'Time'
         }
       }],
-    } 
+    }     
   },
 };
 
@@ -1275,7 +1274,7 @@ const MotiviOltreFashion = {
     ], 
     datasets: [
       {
-        label: "chart1",
+        label: "",
         data: [3
        ,2
         ,1
@@ -1329,16 +1328,16 @@ const MotiviOltreFashion = {
         ,1],
 
         fill: false,
-        borderColor: "#CC794E",
-        backgroundColor: "transparent",
-        pointBorderColor: "#CC794E",
+        borderColor: "#3D5A80",
+        backgroundColor: "#3D5A80",
+        pointBorderColor: "#3D5A80",
         pointRadius: 1,
         pointHoverRadius: 2,
         pointBorderWidth: 4,
         // label: "motivi",
       },
       {
-        label: "chart2",
+        label: "",
         data: [   
          
 13
@@ -1396,9 +1395,9 @@ const MotiviOltreFashion = {
       ]
         ,
         fill: false,
-        borderColor: "#286F6F",
-        backgroundColor: "transparent",
-        pointBorderColor: "#286F6F",
+        borderColor: "#EE6C4D",
+        backgroundColor: "#EE6C4D",
+        pointBorderColor: "#EE6C4D",
         pointRadius: 1,
         pointHoverRadius: 2,
         pointBorderWidth: 4,
@@ -1415,16 +1414,16 @@ const MotiviOltreFashion = {
       yAxes: [{
         scaleLabel: {
           display: true,
-          labelString: 'Number of mentions'
+          labelString: 'Number of interactions'
         }
       }],
       xAxes: [{
         scaleLabel: {
           display: true,
-          labelString: 'Date'
+          labelString: 'Time'
         }
       }],
-    } 
+    }     
   },
 };
 
@@ -1432,59 +1431,59 @@ const LuxuryBrands = {
   data: {
     labels: [
       "Luxury Brand"
-     ],
+     ], 
     datasets: [
+      {
+        label: "Versace",
+        data: [21749],
+        fill: true,
+        borderColor: "#654236",
+        backgroundColor: "#654236",
+        pointBorderColor: "#654236",
+        pointRadius: 1,
+        pointHoverRadius: 2,
+        pointBorderWidth: 4,
+      },
       {
         label: "Balmain",
         data: [14159],
         fill: true,
-        borderColor: "#AA6F5D",
-        backgroundColor: "#AA6F5D",
-        pointBorderColor: "#AA6F5D",
+        borderColor: "#E24E1B",
+        backgroundColor: "#E24E1B",
+        pointBorderColor: "#E24E1B",
         pointRadius: 1,
         pointHoverRadius: 2,
         pointBorderWidth: 4,
       },
       {
         label: "Gucci",
-        data: [9806],
+        data: [9647],
         fill: true,
-        borderColor: "#BD8270",
-        backgroundColor: "#BD8270",
-        pointBorderColor: "#BD8270",
+        borderColor: "#DA7635",
+        backgroundColor: "#DA7635",
+        pointBorderColor: "#DA7635",
+        pointRadius: 1,
+        pointHoverRadius: 2,
+        pointBorderWidth: 4,
+      },
+      {
+        label: "Fendi",
+        data: [1514],
+        fill: true,
+        borderColor: "#DB995A",
+        backgroundColor: "#DB995A",
+        pointBorderColor: "#DB995A",
         pointRadius: 1,
         pointHoverRadius: 2,
         pointBorderWidth: 4,
       },
       {
         label: "Celine",
-        data: [8643],
+        data: [1423],
         fill: true,
-        borderColor: "#C09175",
-        backgroundColor: "#C09175",
-        pointBorderColor: "#C09175",
-        pointRadius: 1,
-        pointHoverRadius: 2,
-        pointBorderWidth: 4,
-      },
-      {
-        label: "Rocha",
-        data: [4516],
-        fill: true,
-        borderColor: "#D1AE9B",
-        backgroundColor: "#D1AE9B",
-        pointBorderColor: "#D1AE9B",
-        pointRadius: 1,
-        pointHoverRadius: 2,
-        pointBorderWidth: 4,
-      },
-      {
-        label: "Versace",
-        data: [1763],
-        fill: true,
-        borderColor: "#DDC0B4",
-        backgroundColor: "#DDC0B4",
-        pointBorderColor: "#DDC0B4",
+        borderColor: "#D6D4A0",
+        backgroundColor: "#D6D4A0",
+        pointBorderColor: "#D6D4A0",
         pointRadius: 1,
         pointHoverRadius: 2,
         pointBorderWidth: 4,
@@ -1496,15 +1495,7 @@ const LuxuryBrands = {
       display: true,
       position: "top",
     },
-    scales: {
-      yAxes: [{
-        scaleLabel: {
-          display: true,
-          labelString: 'Number of mentions',
-        }
-      }],
-    }   
-  }
+  },
 };
 
 module.exports = {
@@ -1519,5 +1510,5 @@ module.exports = {
   MotiviMiroglio,
   MotiviOltreFashion,
   MotiviPerte,
-  LuxuryBrands,
+  LuxuryBrands
 };

@@ -62,8 +62,8 @@ class User extends React.Component {
     return (
       <>
         <div className="content">
-          <p>Here you can see the influence of the top luxury brand during the last fashion shows.</p>
-          <p className="card-category">Click on one brand to see new trends</p>
+          <p className="card-category">Here you can see the influence of the top luxury brand during the last fashion shows.</p>
+          <p>Click on one brand to see new trends</p>
        
         <Card>
         <Bar data={LuxuryBrands.data}

@@ -21,6 +21,7 @@ import { WordCloud } from "word-cloud-react";
 // react plugin used to create charts
 import { Line, Pie } from "react-chartjs-2";
 import ReactWordcloud from 'react-wordcloud';
+import Badge from 'react-bootstrap/Badge';
 // reactstrap components
 import {
   Card,
@@ -127,16 +128,27 @@ class Dashboard extends React.Component {
           <option value="3">Twist Fashion</option>
           <option value="4">Elenamiro</option>
         </select>
-
-      </div>
-      </Col>
+        </div>
+        </Col>
+        <Col>
+        <Card>
+          <CardBody>
+            <h7> SENTIMENT OF THE BRAND based on Twitter interactions </h7>
+            <p> </p>
+          <Badge pill variant="light" style={{fontSize:23, margin: 2, backgroundColor: '#98C1D9'}}> 68% Positive Sentiment </Badge> 
+          <Badge pill variant="light" style={{fontSize:23, margin: 2, backgroundColor: '#98C1D9'}}> 20% Negative Sentiment </Badge> 
+                                   
+        </CardBody>
+      </Card>
+      </Col>                
+        
       </Row>
-
-          <Row> <Col md="12">
+      <Row> 
+        <Col md="12">
               <Card className="card-chart">
                 <CardHeader>
                   <CardTitle tag="h5">Twitter Trends</CardTitle>
-                  <p className="card-category">data at Today 28 Dec 2020</p>
+                  <p className="card-category">Here you can find the trend of your popularity on Twitter</p>
                 </CardHeader>
                 <CardBody>
                   <Line
@@ -160,13 +172,15 @@ class Dashboard extends React.Component {
                     <i className="fa fa-check" /> Data information certified
                   </div>
                 </CardFooter>
-              </Card>
-            </Col></Row>
+        </Card>
+        </Col>
+        
+      </Row>
           <Row>
             <Col md="12">
               <Card> 
               <CardHeader>
-                  <CardTitle tag="h5">Related Hashtags</CardTitle>
+                  <CardTitle tag="h5">Related Hashtags to your brand</CardTitle>
                   <p className="card-category">Brand Motivi</p>
                 </CardHeader>
                  <CardBody>

@@ -39,6 +39,9 @@ class Tables extends React.Component {
     return (
       <>
         <div className="content">
+        <p> </p>
+        <p className="card-category">In this section you can find a FORECAST of the quantity to produce!</p>
+        <p> </p>
         <Row> 
           <Col md="8">
               <Card className="card-chart">

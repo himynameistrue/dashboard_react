@@ -133,13 +133,13 @@ class Notifications extends React.Component {
                 </CardBody>
                 <CardFooter>
                 <div className="legend">
-                    <i className="fa fa-circle text-gray" /> SOLID COLOR{" "}
-                    <i className="fa fa-circle text-primary" /> FLORAL{" "}
-                    <i className="fa fa-circle text-warning" /> CHECKS{" "}
-                    <i className="fa fa-circle text-danger" />STRIPES{" "}
-                    <i className="fa fa-circle "style={{color:"red"} }/>LEOPARD{" "}
-                    <i className="fa fa-circle"  style={{color:"#C9F7EE"}} />DOTTED{" "}
-                    <i className="fa fa-circle " style={{color:"#F67DE0"}} />CAMO{" "}
+                    <i className="fa fa-circle " style={{color:"#3D5A80"} }/> SOLID COLOR{" "}
+                    <i className="fa fa-circle "style={{color:"#98C1D9"} } /> FLORAL{" "}
+                    <i className="fa fa-circle "style={{color:"#E0FBFC"} } /> CHECKS{" "}
+                    <i className="fa fa-circle "style={{color:"#EE6C4D"} } />STRIPES{" "}
+                    <i className="fa fa-circle "style={{color:"#293241"} }/>LEOPARD{" "}
+                    <i className="fa fa-circle"  style={{color:"#DA7635"}} />DOTTED{" "}
+                    <i className="fa fa-circle " style={{color:"#DB995A"}} />CAMO{" "}
                   </div>
                   <hr />
                 </CardFooter>       
@@ -160,13 +160,13 @@ class Notifications extends React.Component {
                 </CardBody>
                 <CardFooter>
                 <div className="legend">
-                    <i className="fa fa-circle text-gray" /> SOLID COLOR{" "}
-                    <i className="fa fa-circle text-primary" /> FLORAL{" "}
-                    <i className="fa fa-circle text-warning" /> CHECKS{" "}
-                    <i className="fa fa-circle text-danger" />STRIPES{" "}
-                    <i className="fa fa-circle "style={{color:"red"} }/>LEOPARD{" "}
-                    <i className="fa fa-circle"  style={{color:"#C9F7EE"}} />DOTTED{" "}
-                    <i className="fa fa-circle " style={{color:"#F67DE0"}} />CAMO{" "}
+                    <i className="fa fa-circle " style={{color:"#3D5A80"} }/> SOLID COLOR{" "}
+                    <i className="fa fa-circle "style={{color:"#98C1D9"} } /> FLORAL{" "}
+                    <i className="fa fa-circle "style={{color:"#E0FBFC"} } /> CHECKS{" "}
+                    <i className="fa fa-circle "style={{color:"#EE6C4D"} } />STRIPES{" "}
+                    <i className="fa fa-circle "style={{color:"#293241"} }/>LEOPARD{" "}
+                    <i className="fa fa-circle"  style={{color:"#DA7635"}} />DOTTED{" "}
+                    <i className="fa fa-circle " style={{color:"#DB995A"}} />CAMO{" "}
                   </div>
                   <hr />
                   {/* <div className="stats">

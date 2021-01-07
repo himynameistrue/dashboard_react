@@ -163,9 +163,9 @@ class Dashboard extends React.Component {
                 
                 <CardFooter>
                   <div className="chart-legend">
-                    
-                    <i className="fa fa-circle text-warning" /> Motivi {" "}
-                    <i className="fa fa-circle text-info" /> {this.state.name}{" "}
+                
+                    <i className="fa fa-circle " style={{color:"#3D5A80"}}/> Motivi {" "}
+                    <i className="fa fa-circle " style={{color:"#EE6C4D"}} /> {this.state.name}{" "}
                   </div>
                   <hr />
                   <div className="card-stats">

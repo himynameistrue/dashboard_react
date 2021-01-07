@@ -259,7 +259,8 @@ class Tables extends React.Component {
         <div className="content">
           <p> </p>
           <p className="card-category">In this section you can find a FORECAST of the quantity to produce!</p>
-          <p> </p>
+          <p className="card-category"> The graphs are specified for dress category with cotton fabric</p>
+          <p></p>
           <Row>
             <Col lg="3" md="6" sm="6">
               <p>Choose Color</p>

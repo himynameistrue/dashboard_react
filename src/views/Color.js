@@ -574,6 +574,7 @@
 
 */
 import BoxContainer from "components/BoxContainer";
+import BoxInsta from "components/BoxInsta";
 import React from "react";
 // react plugin used to create charts
 import { Line, Pie } from "react-chartjs-2";
@@ -596,21 +597,19 @@ import {
   skirtColorFs
   
 } from "variables/charts.js";
+import { rgbValue, generateColors , generateColorInsta } from 'components/helpers'
 
 class Icons extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { data : dashboardEmailStatisticsChart.data , name: 'Total' };
+    this.state = { value :'1',  name: 'Total' };
   }
   handleChange = (event) => {
-    if(event.target.value=="1"){
-      this.setState({ data: skirtColorFs.data , name:'Skirt' });
-    }
-    if((event.target.value=="2")){
-      // this.state = { data : dashboardFabricData.data , data2:dashboardFabricDataInstagram.data  };
-      this.setState({ data : dashboardEmailStatisticsChart.data , name:'Total'  });
-    }
-    console.log("target:" +event.target.value);
+  
+      this.setState({ value : event.target.value , name:event.target.selectedOptions[0].text });
+    
+  
+    // console.log("target:" +event.target.value);
     // this.setState({ [event.target.name]: event.target.value });
   }
   render() {
@@ -623,13 +622,15 @@ class Icons extends React.Component {
           <p>Choose the category: </p>
         <div style={{margin: "6px"}}>
         <select className="browser-default custom-select" onChange={this.handleChange} >
-        <option value="2">Total</option>
-          <option value="3">Top</option>
-          <option value="4">Skirt</option>
-          <option value="5">Kimono</option>
-          <option value="6">Jumpsuit</option>
-          <option value="7">Dress</option>
-          <option value="1">Jacket</option>
+        <option value="1" target="Total">Total</option>
+          <option value="2" target="Top">Top</option>
+          <option value="6" target="Skirt">Skirt</option>
+          <option value="7"target="Kimono">Kimono</option>
+          <option value="5"target="Jumpsuit">Jumpsuit</option>
+          <option value="3"target="Dress">Dress</option>
+          <option value="4"target="Jacket">Jacket</option>
+          <option value="8"target="Pants">Pants</option>
+    
         </select>
 
       </div>
@@ -643,7 +644,8 @@ class Icons extends React.Component {
                   <p className="card-category">Fashion Shows</p>
                 </CardHeader>
                 <CardBody>
-                  <BoxContainer
+                  <BoxContainer colors={generateColors(this.state.value)} 
+                  value={this.state.value} name='fs'
                   
                   />
                 
@@ -660,7 +662,8 @@ class Icons extends React.Component {
                   <p className="card-category">Instagram</p>
                 </CardHeader>
                 <CardBody>
-                  <BoxContainer
+                  <BoxInsta colors={generateColorInsta(this.state.value)} 
+                  value={this.state.value} name='in'
                   
                   />
                 

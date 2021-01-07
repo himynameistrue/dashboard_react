@@ -3,7 +3,7 @@ import './BoxContainer.css'
 import Box from './Box'
 import { rgbValue, generateColors , generateColorInsta } from './helpers'
 
-class BoxContainer extends Component {
+class BoxInsta extends Component {
 
   // Number of color boxes want shows by default 
   static defaultProps = {
@@ -18,7 +18,7 @@ class BoxContainer extends Component {
     // if(name=="in"){
       // this.state = {
         
-      //   colors: generateColors(value)
+      //   colors: generateColorInsta(value)
       //   // Color state contains array of rgb color values 
         
       // }
@@ -66,18 +66,18 @@ class BoxContainer extends Component {
     //   }) 
     // })) 
   }
-  componentDidUpdate(prevProps, prevState){
+//   componentDidUpdate(prevProps, prevState){
 
-   
+ 
+//     // else{
 
-      // this.setState( {
+//       this.setState( {
+//         // Color state contains array of rgb color values 
+//         colors: generateColorInsta(this.props.value)
+//       });
 
-      //   // Color state contains array of rgb color values 
-      //   colors: generateColorInsta(this.props.value)
-      // });
-
-  // }
-}
+//   // }
+// }
   render() {
     return (
       <div className='BoxContainer'>
@@ -91,4 +91,4 @@ class BoxContainer extends Component {
   }
 }
 
-export default BoxContainer
+export default BoxInsta

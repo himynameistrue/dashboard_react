@@ -610,7 +610,7 @@ import {
 class Map extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { data : dashboardFabricData.data , data2:dashboardFabricDataInstagram.data  };
+    this.state = { data : dashboardFabricData.data , data2:dashboardFabricDataInstagram.data , name:'Total'  };
   }
   handleChange = (event) => {
     if(event.target.value=="1"){
@@ -645,6 +645,7 @@ class Map extends React.Component {
       this.setState({ data : pantsFabricDatafs.data , data2:pantsFabricDatain.data  });
     }
     console.log("target:" +event.target.value);
+    this.setState({name:event.target.selectedOptions[0].text});
     // this.setState({ [event.target.name]: event.target.value });
   }
   render() {
@@ -674,8 +675,8 @@ class Map extends React.Component {
             <Col md="6">
               <Card>
                 <CardHeader>
-                  <CardTitle tag="h5">Instagram Fabrics</CardTitle>
-                  
+                  <CardTitle tag="h5">{this.state.name} Fabrics</CardTitle>
+                  <p className="card-category">Instagram</p> 
                 </CardHeader>
                 <CardBody>
                   <Pie
@@ -686,11 +687,11 @@ class Map extends React.Component {
                 </CardBody>
                 <CardFooter>
                   <div className="legend">
-                    <i className="fa fa-circle text-primary" /> leather
-                    <i className="fa fa-circle text-warning" /> denim
-                    <i className="fa fa-circle text-danger" /> lace
-                    <i className="fa fa-circle text-gray" />cotton_wool
-                    <i className="fa fa-circle" style={{color:"red"}}/>pailettes_strass
+                    <i className="fa fa-circle text-primary" /> LEATHER
+                    <i className="fa fa-circle text-warning" /> DENIM
+                    <i className="fa fa-circle text-danger" /> LACE
+                    <i className="fa fa-circle text-gray" />COTTON_WOOL
+                    <i className="fa fa-circle" style={{color:"red"}}/>PAILETTES_STRASS
                   </div>
                   <hr />
                 </CardFooter>
@@ -699,8 +700,8 @@ class Map extends React.Component {
             <Col md="6">
               <Card>
                 <CardHeader>
-                  <CardTitle tag="h5">Fashion Shows Fabrics</CardTitle>
-                  {/* <p className="card-category">Fashion Shows</p> */}
+                  <CardTitle tag="h5">{this.state.name} Fabrics</CardTitle>
+                  <p className="card-category">Fashion Shows</p>
                 </CardHeader>
                 <CardBody>
                   <Pie
@@ -711,16 +712,13 @@ class Map extends React.Component {
                 </CardBody>
                 <CardFooter>
                   <div className="legend">
-                  <i className="fa fa-circle text-primary" /> leather
-                    <i className="fa fa-circle text-warning" /> denim
-                    <i className="fa fa-circle text-danger" /> lace
-                    <i className="fa fa-circle text-gray" />cotton_wool
-                    <i className="fa fa-circle" style={{color:"red"}}/>pailettes_strass
+                    <i className="fa fa-circle text-primary" /> LEATHER
+                    <i className="fa fa-circle text-warning" /> DENIM
+                    <i className="fa fa-circle text-danger" /> LACE
+                    <i className="fa fa-circle text-gray" />COTTON_WOOL
+                    <i className="fa fa-circle" style={{color:"red"}}/>PAILETTES_STRASS
                   </div>
                   <hr />
-                  {/* <div className="stats">
-                    <i className="fa fa-calendar" /> Number of emails sent
-                  </div> */}
                 </CardFooter>
               </Card>
             </Col>

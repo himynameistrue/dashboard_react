@@ -53,7 +53,7 @@ import {
 class Notifications extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { data : totalPatternDatafs.data , data2:totalPatternDatain.data  };
+    this.state = { data : totalPatternDatafs.data , data2:totalPatternDatain.data ,name:'Total' };
   }
   handleChange = (event) => {
     if(event.target.value=="1"){
@@ -88,7 +88,7 @@ class Notifications extends React.Component {
       this.setState({ data : pantsPatternDatafs.data , data2:pantsPatternDatain.data  });
     }
     console.log("target:" +event.target.value);
-
+    this.setState({name:event.target.selectedOptions[0].text});
     // this.setState({ [event.target.name]: event.target.value });
   }
   render() {
@@ -118,7 +118,7 @@ class Notifications extends React.Component {
             <Col md="6">
               <Card>
                 <CardHeader>
-                  <CardTitle tag="h5">Total Fabrics</CardTitle>
+                  <CardTitle tag="h5">{this.state.name} Pattern</CardTitle>
                   <p className="card-category">Instagram</p>
                 </CardHeader>
                 <CardBody>
@@ -145,7 +145,7 @@ class Notifications extends React.Component {
             <Col md="6">
               <Card>
                 <CardHeader>
-                  <CardTitle tag="h5">Total Fabrics</CardTitle>
+                  <CardTitle tag="h5">{this.state.name} Pattern</CardTitle>
                   <p className="card-category">Fashion Shows</p>
                 </CardHeader>
                 <CardBody>

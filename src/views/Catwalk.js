@@ -61,21 +61,6 @@ import {
 } from "reactstrap";
 
 class Catwalk extends React.Component {
- /* handleChange = (event) => {
-    if(event.target.value=="1"){
-      console.log(event.target.value);
-      this.props.history.push({pathname: '/admin/catwalk/versace', state: this.state});
-    }
-    else if(event.target.value=="2"){
-      console.log(event.target.value);
-      this.props.history.push({pathname: '/admin/catwalk/balmain', state: this.state});
-      }
-    else if(event.target.value=="3"){
-      console.log(event.target.value);
-      this.props.history.push({pathname: '/admin/catwalk/gucci', state: this.state});
-    }
-}
-  */
   render() {
     return (
     <div className="content">
@@ -84,19 +69,7 @@ class Catwalk extends React.Component {
           <Switch>
           
             <Route path='/admin/catwalk/versace'>
-          {/*  <Row>
-          <Col lg="3" md="6" sm="6">
-          <p>Choose the Brand : </p>
-        <div style={{margin: "6px"}}>
-        <select className="browser-default custom-select" onChange={this.handleChange} >
-        <option value="1">Versace</option>
-          <option value="2">Balmain</option>
-          <option value="3">Gucci</option>
-        </select>
-        <p></p>
-        </div>
-        </Col>
-          </Row>*/}
+            <h4>Versace</h4>
             <CardDeck>
             <Card>
               
@@ -203,7 +176,8 @@ class Catwalk extends React.Component {
               </CardDeck>
             </Route>
             <Route path='/admin/catwalk/balmain'>
-           
+            <h4>Balmain</h4>
+            
             <CardDeck>
               <Card>
                 <Card.Img variant="top" src={balmain1}/>
@@ -302,20 +276,8 @@ class Catwalk extends React.Component {
             </CardDeck>
             </Route>
             <Route path='/admin/catwalk/gucci'>
-           {/*} <Row>
-          <Col lg="3" md="6" sm="6">
-          <p>Choose the Brand : </p>
-        <div style={{margin: "6px"}}>
-        <select className="browser-default custom-select" onChange={this.handleChange} >
-        <option value="1">Versace</option>
-          <option value="2">Balmain</option>
-          <option value="3">Gucci</option>
-        </select>
-        <p></p>
-        </div>
-        </Col>
-        </Row>
-          */}<CardDeck>
+            <h4>Gucci</h4>
+            <CardDeck>
               <Card>
                 <Card.Img variant="top" src={gucci1}/>
                   <Card.Body>

@@ -31,7 +31,6 @@ class Typography extends React.Component {
             <Col md="12">
               <Card>
                 <CardHeader>
-                  <h5 className="title">Upload Dataset</h5>
                   <p>
                     Here tou can upload your dataset of previous sells. 
                   </p>

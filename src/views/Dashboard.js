@@ -75,7 +75,7 @@ class Dashboard extends React.Component {
   constructor(props) {
     super(props);
     this.state = { data : dashboardNASDAQChart.data , name: '', key: 1 , options:
-    dashboardNASDAQChart.options , word: wordMotivi };
+    dashboardNASDAQChart.options , word: wordMotivi , positive:'88%' , negative:'12%' };
   }
   handleChange = (event) => {
 
@@ -83,32 +83,32 @@ class Dashboard extends React.Component {
     console.log(event.target.value);
 
     this.setState({data: MotiviOltreFashion.data , options: MotiviOltreFashion.options,  key:2
-    , name:"Machka" , word:wordMachka})
+    , name:"Machka" , word:wordMachka , positive:'64%' , negative:'36%'})
   }
   else if(event.target.value=="2"){
     console.log(event.target.value);
 
       this.setState({data: MotiviMiroglio.data , options: MotiviMiroglio.options, key:3 , name: "Miroglio"
-      ,word:wordMiroglio})
+      ,word:wordMiroglio , positive:'64%' , negative:'36%'})
     }
   else if(event.target.value=="3"){
     console.log(event.target.value);
 
         this.setState({data: MotiviTwistFashion.data,  options: MotiviTwistFashion.options, key:4
-          , name: "Twist Fashion"  ,word:wordTwist})
+          , name: "Twist Fashion"  ,word:wordTwist, positive:'85%' , negative:'15%'})
       }
   else if(event.target.value=="4"){
     console.log(event.target.value);
 
           this.setState({data: MotiviPerte.data,  options: MotiviPerte.options, key:5,
-            name: "Elenamiro"  ,word:wordElenamiro })
+            name: "Elenamiro"  ,word:wordElenamiro , positive:'93%' , negative:'7%'})
       }
 
     else if(event.target.value=="6"){
       console.log(event.target.value);
 
       this.setState({data:dashboardNASDAQChart.data , name: '', key:5 ,word:wordMotivi
-         });
+      , positive:'88%' , negative:'12%'});
   }
 
   }
@@ -135,8 +135,8 @@ class Dashboard extends React.Component {
           <CardBody>
             <h7> SENTIMENT OF THE BRAND based on Twitter interactions </h7>
             <p> </p>
-          <Badge pill variant="light" style={{fontSize:23, margin: 2, backgroundColor: '#98C1D9'}}> 68% Positive Sentiment </Badge> 
-          <Badge pill variant="light" style={{fontSize:23, margin: 2, backgroundColor: '#98C1D9'}}> 20% Negative Sentiment </Badge> 
+          <Badge pill variant="light" style={{fontSize:23, margin: 2, backgroundColor: '#98C1D9'}}>{this.state.positive} Positive Sentiment </Badge> 
+          <Badge pill variant="light" style={{fontSize:23, margin: 2, backgroundColor: '#98C1D9'}}>{this.state.negative} Negative Sentiment </Badge> 
                                    
         </CardBody>
       </Card>

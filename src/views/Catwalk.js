@@ -26,14 +26,14 @@ import Badge from 'react-bootstrap/Badge';
 
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
-import versace1 from '../assets/img/imgCatwalk/Versace_058_20200925204738.JPG';
-import versace2 from '../assets/img/imgCatwalk/Versace_008_20200925204529.JPG';
+import versace1 from '../assets/img/imgCatwalk/photo_2021-01-06 22.46.14.jpg';
+import versace2 from '../assets/img/imgCatwalk/photo_2021-01-06 22.46.17.jpg';
 import versace3 from '../assets/img/imgCatwalk/photo_2021-01-06 18.34.37.jpg';
 
 
-import balmain1 from '../assets/img/imgCatwalk/Balmain_0009_20201005100640.JPG';
-import balmain2 from '../assets/img/imgCatwalk/Balmain_0021_20201005100852.JPG';
-import balmain3 from '../assets/img/imgCatwalk/Balmain_0061_20201005101054.JPG';
+import balmain1 from '../assets/img/imgCatwalk/photo_2021-01-06 23.06.24.jpg';
+import balmain2 from '../assets/img/imgCatwalk/photo_2021-01-06 23.06.28.jpg';
+import balmain3 from '../assets/img/imgCatwalk/photo_2021-01-06 23.06.20.jpg';
 
 
 import gucci1 from '../assets/img/imgCatwalk/LOOK-1E__full-length.jpg';
@@ -61,15 +61,45 @@ import {
 } from "reactstrap";
 
 class Catwalk extends React.Component {
+ /* handleChange = (event) => {
+    if(event.target.value=="1"){
+      console.log(event.target.value);
+      this.props.history.push({pathname: '/admin/catwalk/versace', state: this.state});
+    }
+    else if(event.target.value=="2"){
+      console.log(event.target.value);
+      this.props.history.push({pathname: '/admin/catwalk/balmain', state: this.state});
+      }
+    else if(event.target.value=="3"){
+      console.log(event.target.value);
+      this.props.history.push({pathname: '/admin/catwalk/gucci', state: this.state});
+    }
+}
+  */
   render() {
     return (
     <div className="content">
       <Router>
         <Container>
           <Switch>
+          
             <Route path='/admin/catwalk/versace'>
+          {/*  <Row>
+          <Col lg="3" md="6" sm="6">
+          <p>Choose the Brand : </p>
+        <div style={{margin: "6px"}}>
+        <select className="browser-default custom-select" onChange={this.handleChange} >
+        <option value="1">Versace</option>
+          <option value="2">Balmain</option>
+          <option value="3">Gucci</option>
+        </select>
+        <p></p>
+        </div>
+        </Col>
+          </Row>*/}
             <CardDeck>
             <Card>
+              
                 <Card.Img variant="top" src={versace1}/>
                   <Card.Body>
                     <Tabs defaultActiveKey="home" id="uncontrolled-tab-example">
@@ -173,6 +203,7 @@ class Catwalk extends React.Component {
               </CardDeck>
             </Route>
             <Route path='/admin/catwalk/balmain'>
+           
             <CardDeck>
               <Card>
                 <Card.Img variant="top" src={balmain1}/>
@@ -268,10 +299,23 @@ class Catwalk extends React.Component {
                     </Tabs>
                   </Card.Body>
                 </Card>
-              </CardDeck>
+            </CardDeck>
             </Route>
             <Route path='/admin/catwalk/gucci'>
-            <CardDeck>
+           {/*} <Row>
+          <Col lg="3" md="6" sm="6">
+          <p>Choose the Brand : </p>
+        <div style={{margin: "6px"}}>
+        <select className="browser-default custom-select" onChange={this.handleChange} >
+        <option value="1">Versace</option>
+          <option value="2">Balmain</option>
+          <option value="3">Gucci</option>
+        </select>
+        <p></p>
+        </div>
+        </Col>
+        </Row>
+          */}<CardDeck>
               <Card>
                 <Card.Img variant="top" src={gucci1}/>
                   <Card.Body>

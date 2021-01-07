@@ -653,6 +653,9 @@ class Map extends React.Component {
       <>
       
         <div className="content">
+        <p> </p>
+        <p className="card-category">In this section you can find the most popular KIND OF FABRIC for the next season!</p>
+        <p> </p>
         <Row>
             <Col lg="3" md="6" sm="6">
           <p>Choose the category: </p>

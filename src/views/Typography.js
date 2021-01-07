@@ -35,7 +35,7 @@ class Typography extends React.Component {
                   <p>
                     Here tou can upload your dataset of previous sells. 
                   </p>
-                  <p>These data will be used to calculate the quantity to produce speficically for your brand! </p>
+                  <p>These data will be used to calculate the quantity to produce specifically for your brand! </p>
                 </CardHeader>
                 <CardBody>
                   <div> 

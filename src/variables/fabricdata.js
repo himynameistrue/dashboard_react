@@ -11,8 +11,7 @@ const dashboardFabricData = {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             borderWidth: 0,
             data: [0.7305,0.2284,0.0344,0.0061,0.0003],
            
@@ -70,18 +69,17 @@ const dashboardFabricData = {
   const dashboardFabricDataJacket = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
         ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             borderWidth: 0,
             data: [0.5804,0.3793,0.0344,0.0057
              ],
@@ -139,20 +137,18 @@ const dashboardFabricData = {
   const dashboardFabricDataJacketInstagram = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
-        'paillettes_strass',
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
+        'PAILLETTES STRASS',
         ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
-            borderWidth: 0,
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             data: [0.3376,0.4285,0.1298,0.0649,0.0389
              ],
            
@@ -210,19 +206,18 @@ const dashboardFabricData = {
   const dashboardFabricDataInstagram = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
-        'pailettes_strass'],
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
+        'PAILLETTES STRASS',
+        ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
-            borderWidth: 0,
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             data: [0.375
               ,0.2764,0.1408,0.1461,0.0616],
            
@@ -283,19 +278,17 @@ const dashboardFabricData = {
   const dressFabricDatafs = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
         ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
-            borderWidth: 0,
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             data: [0.8477,0.1181,0.0236,0.0104
              ],
            
@@ -352,20 +345,18 @@ const dashboardFabricData = {
   const dressFabricDatain = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
-        'paillettes_strass',
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
+        'PAILLETTES STRASS',
         ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
-            borderWidth: 0,
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             data: [0.3421,0.2631,0.0526,0.2631,0.0789
              ],
            
@@ -423,18 +414,17 @@ const dashboardFabricData = {
   const jumpFabricDatafs = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
         ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             borderWidth: 0,
             data: [0.7368,0.2315,0.0263,0.0052
              ],
@@ -492,18 +482,18 @@ const dashboardFabricData = {
   const jumpFabricDatain = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
-        'pailettes_strass'],
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
+        'PAILLETTES STRASS',
+        ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             borderWidth: 0,
             data: [0.3043,0.2608,0.0869,0.2173,0.1304],
            
@@ -561,20 +551,18 @@ const dashboardFabricData = {
   const kimonoFabricDatafs = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
-        'pailettes_strass',
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
+        'PAILLETTES STRASS',
         ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
-            borderWidth: 0,
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             data: [0.6456,0.3009,0.0388,0.0097,0.0048
              ],
            
@@ -631,19 +619,18 @@ const dashboardFabricData = {
   const kimonoFabricDatain = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
-        'pailettes_strass'],
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
+        'PAILLETTES STRASS',
+        ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
-            borderWidth: 0,
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             data: [0.4090,0.1818,0.0909,0.1363,0.1818],
            
           },
@@ -699,19 +686,18 @@ const dashboardFabricData = {
   const pantsFabricDatafs = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
+        'PAILLETTES STRASS',
         ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
-            borderWidth: 0,
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             data: [0.6888,0.2685,0.0388,0.0037
              ],
            
@@ -768,19 +754,18 @@ const dashboardFabricData = {
   const pantsFabricDatain = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
-        'pailettes_strass'],
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
+        'PAILLETTES STRASS',
+        ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
-            borderWidth: 0,
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             data: [0.3963,0.1351,0.2972,0.1171,0.0540 ],
            
           },
@@ -836,19 +821,18 @@ const dashboardFabricData = {
   const skirtFabricDatafs = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
+        
         ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
-            borderWidth: 0,
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             data: [0.8149,0.1683,0.0124,0.0041
              ],
            
@@ -905,19 +889,18 @@ const dashboardFabricData = {
   const skirtFabricDatain = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
-        'pailettes_strass'],
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
+        'PAILLETTES STRASS',
+        ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
-            borderWidth: 0,
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             data: [,0.5
               ,0.25
               ,0.0416
@@ -976,8 +959,8 @@ const dashboardFabricData = {
   const topFabricDatafs = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
+        labels: ['COTTON WOOL',
+        'LEATHER',
         
         ],
         datasets: [
@@ -985,9 +968,7 @@ const dashboardFabricData = {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
-            borderWidth: 0,
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             data: [0.9333,0.0666
            
              ],
@@ -1045,19 +1026,18 @@ const dashboardFabricData = {
   const topFabricDatain = {
     data: (canvas) => {
       return {
-        labels: ['cotton_wool',
-        'leather',
-        'denim',
-        'lace',
-        'pailettes_strass'],
+        labels: ['COTTON WOOL',
+        'LEATHER',
+        'DENIM',
+        'LACE',
+        'PAILLETTES STRASS',
+        ],
         datasets: [
           {
             label: "Top Colors",
             pointRadius: 0,
             pointHoverRadius: 0,
-            backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
-            
-            borderWidth: 0,
+            backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "#293241", "#DA7635", "#DB995A"],borderWidth: 0,
             data: [0.2682,0.3414,0.1219,0.1951,0.0731],
            
           },

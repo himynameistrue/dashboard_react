@@ -189,17 +189,17 @@ const dashboardEmailStatisticsChart = {
 const dashboardFabricData = {
   data: (canvas) => {
     return {
-      labels: ['cotton_wool',
-      'leather',
-      'denim',
-      'lace',
-      'pailettes_strass'],
+      labels: ['COTTON WOOL',
+      'LEATHER',
+      'DENIM',
+      'LACE',
+      'PAILLETTES_STRASS'],
       datasets: [
         {
           label: "Top Colors",
           pointRadius: 0,
           pointHoverRadius: 0,
-          backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
+          backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "293241"],
           
           borderWidth: 0,
           data: [1906
@@ -262,17 +262,17 @@ const dashboardFabricData = {
 const dashboardFabricDataJacket = {
   data: (canvas) => {
     return {
-      labels: ['cotton_wool',
-      'leather',
-      'denim',
-      'lace',
+      labels: ['COTTON WOOL',
+      'LEATHER',
+      'DENIM',
+      'LACE',
       ],
       datasets: [
         {
           label: "Top Colors",
           pointRadius: 0,
           pointHoverRadius: 0,
-          backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
+          backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "293241"],
           
           borderWidth: 0,
           data: [101
@@ -334,18 +334,18 @@ const dashboardFabricDataJacket = {
 const dashboardFabricDataJacketInstagram = {
   data: (canvas) => {
     return {
-      labels: ['cotton_wool',
-      'leather',
-      'denim',
-      'lace',
-      'paillettes_strass',
+      labels: ['COTTON WOOL',
+      'LEATHER',
+      'DENIM',
+      'LACE',
+      'PAILLETTES STRASS',
       ],
       datasets: [
         {
           label: "Top Colors",
           pointRadius: 0,
           pointHoverRadius: 0,
-          backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
+          backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "293241"],
           
           borderWidth: 0,
           data: [33
@@ -409,17 +409,18 @@ const dashboardFabricDataJacketInstagram = {
 const dashboardFabricDataInstagram = {
   data: (canvas) => {
     return {
-      labels: ['cotton_wool',
-      'leather',
-      'denim',
-      'lace',
-      'pailettes_strass'],
+      labels: ['COTTON WOOL',
+      'LEATHER',
+      'DENIM',
+      'LACE',
+      'PAILLETTES STRASS',
+      ],
       datasets: [
         {
           label: "Top Colors",
           pointRadius: 0,
           pointHoverRadius: 0,
-          backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "red"],
+          backgroundColor: ["#3D5A80", "#98C1D9", "#E0FBFC", "#EE6C4D", "293241"],
           
           borderWidth: 0,
           data: [213

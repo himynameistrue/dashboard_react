@@ -74,7 +74,7 @@ class Sidebar extends React.Component {
           </a>
         </div> */}
         <div className="sidebar-wrapper" ref={this.sidebar}>
-        <div><h5>politowearsprada</h5></div>
+        <div><h5>Next Fashion</h5></div>
           <Nav>
             {this.props.routes.map((prop, key) => {
               return (

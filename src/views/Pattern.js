@@ -50,6 +50,15 @@ import {
   
 } from "variables/patterndata.js";
 
+import Image from 'react-bootstrap/Image';
+import floral from "../assets/img/pattern/floral.jpeg";
+import solidcolor from "../assets/img/pattern/solidcolor.jpeg";
+import camo from "../assets/img/pattern/camo.jpeg";
+import checks from "../assets/img/pattern/checks.jpeg";
+import dotted from "../assets/img/pattern/dotted.jpeg";
+import lace from "../assets/img/pattern/lace.jpeg";
+import leather from "../assets/img/pattern/leather.jpeg";
+import leopard from "../assets/img/pattern/leopard.jpg";
 class Notifications extends React.Component {
   constructor(props) {
     super(props);
@@ -116,13 +125,38 @@ class Notifications extends React.Component {
 
       </div>
       </Col>
+      <Col>
+        <Card>
+          <CardBody >
+            <h7 tag="h5"> Analyzed Patterns </h7>
+            <div >
+            {/* <p>floral    camo    checks    solid color    leopard    dotted</p> */}
+            <img src={floral} style={{height:'4em' , width:'4em' , margin:'0.25em'}} ></img>
+            {/* <p>camo</p> */}
+            <img src={camo} style={{height:'4em' , width:'4em', margin:'0.25em'}} ></img>
+            {/* <p>checks</p> */}
+            <img src={checks} style={{height:'4em' , width:'4em', margin:'0.25em'}} ></img>
+            {/* <p>solid color</p> */}
+            <img src={solidcolor} style={{height:'4em' , width:'4em', margin:'0.25em'}} ></img>
+            {/* <p>leopard</p> */}
+            <img src={leopard} style={{height:'4em' , width:'4em', margin:'0.25em'}} ></img>
+            {/* <p>dotted</p> */}
+            <img src={dotted} style={{height:'4em' , width:'4em', margin:'0.25em'}} ></img>
+            <p className="card-category">left to right: floral, camo, checks, solid color, leopard and dotted</p>
+            </div>
+          {/* <Badge pill variant="light" style={{fontSize:23, margin: 2, backgroundColor: '#98C1D9'}}>{this.state.positive} Positive Sentiment </Badge> 
+          <Badge pill variant="light" style={{fontSize:23, margin: 2, backgroundColor: '#98C1D9'}}>{this.state.negative} Negative Sentiment </Badge>  */}
+                                   
+        </CardBody>
+      </Card>
+      </Col>           
       </Row>
           <Row>
             <Col md="6">
               <Card>
                 <CardHeader>
                   <CardTitle tag="h5">{this.state.name} Pattern</CardTitle>
-                  <p className="card-category">Instagram</p>
+                  <p className="card-category">Distribution from Instagram</p>
                 </CardHeader>
                 <CardBody>
                   <Pie
@@ -149,7 +183,7 @@ class Notifications extends React.Component {
               <Card>
                 <CardHeader>
                   <CardTitle tag="h5">{this.state.name} Pattern</CardTitle>
-                  <p className="card-category">Fashion Shows</p>
+                  <p className="card-category">Distribution from Fashion Shows</p>
                 </CardHeader>
                 <CardBody>
                   <Pie

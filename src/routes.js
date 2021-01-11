@@ -63,7 +63,7 @@ var routes = [
   },
   {
     path: "/tables",
-    name: "Production Forcast",
+    name: "Production Forecast",
     icon: "nc-icon nc-money-coins",
     component: TableList,
     layout: "/admin",

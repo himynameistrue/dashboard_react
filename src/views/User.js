@@ -63,7 +63,7 @@ class User extends React.Component {
       <>
         <div className="content">
           <p className="card-category">Here you can see the influence of the top luxury brand during the last fashion shows.</p>
-          <p>Click on one brand to see new trends</p>
+          <p className="title" >Click on one brand to see new trends</p>
        
         <Card>
         <Bar data={LuxuryBrands.data}

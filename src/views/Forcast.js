@@ -259,8 +259,37 @@ class Tables extends React.Component {
         <div className="content">
           <p> </p>
           <p className="card-category">In this section you can find a FORECAST of the quantity to produce!</p>
-          <p className="card-category"> The graphs are specified for dress category with cotton fabric</p>
           <p></p>
+          <Row>
+            <Col lg="3" md="6" sm="6">
+              <p>Choose category</p>
+              <div style={{ margin: "6px" }}>
+                <select className="browser-default custom-select" onChange={this.handleChange} >
+                  <option value="7">Total</option>
+                  <option value="1">dress</option>
+                  <option value="2">jacket</option>
+                  <option value="3">jumpsuit</option>
+                  <option value="4">pants</option>
+                  <option value="5">Kimono</option>
+                  {/* <option value="6">SaddleBrown</option> */}
+                </select>
+
+              </div>
+            </Col>
+
+            <Col lg="3" md="6" sm="6">
+              <p>Choose Fabric</p>
+              <div style={{ margin: "6px" }}>
+                <select className="browser-default custom-select" onChange={this.handleChange2} >
+                  <option value="1">cotton wool</option>
+                  <option value="2">denim</option>
+                  <option value="3">lace</option>
+                </select>
+
+              </div>
+
+            </Col>
+</Row>
           <Row>
             <Col lg="3" md="6" sm="6">
               <p>Choose Color</p>
@@ -302,7 +331,7 @@ class Tables extends React.Component {
             <Col md="8">
               <Card className="card-chart">
                 <CardHeader>
-                  <CardTitle tag="h5">Forecast</CardTitle>
+                  <CardTitle tag="h5">Sales</CardTitle>
                   <p className="card-category">data for 2019 & 2018</p>
                 </CardHeader>
                 <CardBody>
@@ -319,13 +348,13 @@ class Tables extends React.Component {
                 <CardFooter>
                   <div className="chart-legend">
 
-                    {/* <i className="fa fa-circle text-warning" /> Motivi {" "} */}
-                    {/* <i className="fa fa-circle text-info" /> {this.state.name}{" "} */}
+                    <i className="fa fa-circle" style={{color:'black'}}/> history of sale {" "} 
+                    <i className="fa fa-circle" style={{color:'#0080FF'}} /> forecast {" "}
                   </div>
                   <hr />
-                  {/* <div className="card-stats">
+                   <div className="card-stats">
                     <i className="fa fa-check" /> Data information certified
-                  </div> */}
+                   </div> 
                 </CardFooter>
               </Card>
             </Col>
@@ -336,14 +365,19 @@ class Tables extends React.Component {
                   <p className="card-category">data for 2020</p>
                 </CardHeader>
                 <CardBody>
-                  <Line
+                  {/* <Line
 
                     data={this.state.data2.data}
                     options={totalForecast.options}
                     width={400}
                     height={100}
                     redraw
-                  />
+                    
+                  /> */}
+                  <p className="card-category">First 2 month of 2020:</p>
+                  <p>{this.state.data2.data.datasets[0].data[0]}</p>
+                  <p className="card-category">Second 2 month of 2020:</p>
+                  <p>{this.state.data2.data.datasets[0].data[1]}</p>
                 </CardBody>
 
                 <CardFooter>

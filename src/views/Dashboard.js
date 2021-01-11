@@ -88,7 +88,7 @@ class Dashboard extends React.Component {
   else if(event.target.value=="2"){
     console.log(event.target.value);
 
-      this.setState({data: MotiviMiroglio.data , options: MotiviMiroglio.options, key:3 , name: "Miroglio"
+      this.setState({data: MotiviMiroglio.data , options: MotiviMiroglio.options, key:3 , name: "Motivi"
       ,word:wordMiroglio , positive:'64%' , negative:'36%'})
     }
   else if(event.target.value=="3"){
@@ -123,7 +123,7 @@ class Dashboard extends React.Component {
         <div style={{margin: "6px"}}>
         <select className="browser-default custom-select" onChange={this.handleChange} >
         <option value="6">Brands...</option>
-          <option value="2">Miroglio</option>
+          <option value="2">Motivi</option>
           <option value="1">Machka</option>
           <option value="3">Twist Fashion</option>
           <option value="4">Elenamiro</option>
@@ -164,7 +164,7 @@ class Dashboard extends React.Component {
                 <CardFooter>
                   <div className="chart-legend">
                 
-                    <i className="fa fa-circle " style={{color:"#3D5A80"}}/> Motivi {" "}
+                    <i className="fa fa-circle " style={{color:"#3D5A80"}}/> Miroglio {" "}
                     <i className="fa fa-circle " style={{color:"#EE6C4D"}} /> {this.state.name}{" "}
                   </div>
                   <hr />

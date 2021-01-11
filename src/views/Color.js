@@ -643,7 +643,7 @@ class Icons extends React.Component {
               <Card>
                 <CardHeader>
                   <CardTitle tag="h5">{this.state.name} Colors</CardTitle>
-                  <p className="card-category">Fashion Shows</p>
+                  <p className="card-category">Distribution from Fashion Shows</p>
                 </CardHeader>
                 <CardBody>
                   <BoxContainer colors={generateColors(this.state.value)} 
@@ -661,7 +661,7 @@ class Icons extends React.Component {
               <Card>
                 <CardHeader>
                   <CardTitle tag="h5">{this.state.name} Colors</CardTitle>
-                  <p className="card-category">Instagram</p>
+                  <p className="card-category">Distribution from Instagram</p>
                 </CardHeader>
                 <CardBody>
                   <BoxInsta colors={generateColorInsta(this.state.value)} 

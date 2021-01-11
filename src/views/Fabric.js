@@ -679,7 +679,7 @@ class Map extends React.Component {
               <Card>
                 <CardHeader>
                   <CardTitle tag="h5">{this.state.name} Fabrics</CardTitle>
-                  <p className="card-category">Instagram</p> 
+                  <p className="card-category">Distribution from Instagram</p> 
                 </CardHeader>
                 <CardBody>
                   <Pie
@@ -693,8 +693,8 @@ class Map extends React.Component {
                     <i className="fa fa-circle "style={{color:"#98C1D9"}} /> LEATHER
                     <i className="fa fa-circle "style={{color:"#E0FBFC"}} /> DENIM
                     <i className="fa fa-circle "style={{color:"#EE6C4D"}} /> LACE
-                    <i className="fa fa-circle "style={{color:"#3D5A80"}} />COTTON_WOOL
-                    <i className="fa fa-circle" style={{color:"#293241"}}/>PAILETTES_STRASS
+                    <i className="fa fa-circle "style={{color:"#3D5A80"}} />COTTON WOOL
+                    <i className="fa fa-circle" style={{color:"#293241"}}/>PAILETTES STRASS
                   </div>
                   <hr />
                 </CardFooter>
@@ -704,7 +704,7 @@ class Map extends React.Component {
               <Card>
                 <CardHeader>
                   <CardTitle tag="h5">{this.state.name} Fabrics</CardTitle>
-                  <p className="card-category">Fashion Shows</p>
+                  <p className="card-category">Distribution from Fashion Shows</p>
                 </CardHeader>
                 <CardBody>
                   <Pie
@@ -720,8 +720,8 @@ class Map extends React.Component {
                     <i className="fa fa-circle "style={{color:"#98C1D9"}} /> LEATHER
                     <i className="fa fa-circle "style={{color:"#E0FBFC"}} /> DENIM
                     <i className="fa fa-circle "style={{color:"#EE6C4D"}} /> LACE
-                    <i className="fa fa-circle "style={{color:"#3D5A80"}} />COTTON_WOOL
-                    <i className="fa fa-circle" style={{color:"#293241"}}/>PAILETTES_STRASS
+                    <i className="fa fa-circle "style={{color:"#3D5A80"}} />COTTON WOOL
+                    <i className="fa fa-circle" style={{color:"#293241"}}/>PAILETTES STRASS
                   </div>
                   <hr />
                 </CardFooter>

@@ -191,9 +191,9 @@ class Header extends React.Component {
               </NavItem>
               <NavItem>
                   <p>
-                    <span>Miroglio group </span>
+                    <span>Brand X </span>
                   </p>
-                <Image src={img} rounded width="40"/>
+                <Image src={img} rounded width="70"/>
                   
                 
               </NavItem>

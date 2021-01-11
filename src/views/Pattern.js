@@ -56,9 +56,8 @@ import solidcolor from "../assets/img/pattern/solidcolor.jpeg";
 import camo from "../assets/img/pattern/camo.jpeg";
 import checks from "../assets/img/pattern/checks.jpeg";
 import dotted from "../assets/img/pattern/dotted.jpeg";
-import lace from "../assets/img/pattern/lace.jpeg";
-import leather from "../assets/img/pattern/leather.jpeg";
 import leopard from "../assets/img/pattern/leopard.jpg";
+import stripes from "../assets/img/pattern/stripes.jpg";
 class Notifications extends React.Component {
   constructor(props) {
     super(props);
@@ -106,11 +105,12 @@ class Notifications extends React.Component {
       
         <div className="content">
         <p> </p>
-        <p className="card-category">In this section you can find the most popular PATTERN for the next season!</p>
-        <p> </p>
+        <p style={{fontSize: 15, color:'#708090'}}>In this section you can find the most popular PATTERNS for the next season!</p>
+        <p style={{color:'#708090'}}>Patterns are detected from images taken from Instagram and Fashion shows. Hover on the pie to see the name and the frequence. In Total you can see the summary of the patterns for all the basic garnments, futhermore you can select a more specific category</p>
+       <p></p>
         <Row>
             <Col lg="3" md="6" sm="6">
-          <p>Choose the category: </p>
+            <p style={{fontSize: 20}}>Choose the category: </p>
         <div style={{margin: "6px"}}>
         <select className="browser-default custom-select" onChange={this.handleChange} >
         <option value="2">Total</option>
@@ -142,7 +142,8 @@ class Notifications extends React.Component {
             <img src={leopard} style={{height:'4em' , width:'4em', margin:'0.25em'}} ></img>
             {/* <p>dotted</p> */}
             <img src={dotted} style={{height:'4em' , width:'4em', margin:'0.25em'}} ></img>
-            <p className="card-category">left to right: floral, camo, checks, solid color, leopard and dotted</p>
+            <img src={stripes} style={{height:'4em' , width:'4em', margin:'0.25em'}} ></img>
+            <p style={{color:'#708090'}}>Left to right: floral, camo, checks, solid color, leopard, dotted and stripes</p>
             </div>
           {/* <Badge pill variant="light" style={{fontSize:23, margin: 2, backgroundColor: '#98C1D9'}}>{this.state.positive} Positive Sentiment </Badge> 
           <Badge pill variant="light" style={{fontSize:23, margin: 2, backgroundColor: '#98C1D9'}}>{this.state.negative} Negative Sentiment </Badge>  */}
@@ -156,7 +157,7 @@ class Notifications extends React.Component {
               <Card>
                 <CardHeader>
                   <CardTitle tag="h5">{this.state.name} Pattern</CardTitle>
-                  <p className="card-category">Distribution from Instagram</p>
+                  <p style={{fontSize:16, color:'#708090'}}>Distribution from Instagram</p>
                 </CardHeader>
                 <CardBody>
                   <Pie
@@ -183,7 +184,7 @@ class Notifications extends React.Component {
               <Card>
                 <CardHeader>
                   <CardTitle tag="h5">{this.state.name} Pattern</CardTitle>
-                  <p className="card-category">Distribution from Fashion Shows</p>
+                  <p style={{fontSize:16, color:'#708090'}}>Distribution from Fashion Shows</p>
                 </CardHeader>
                 <CardBody>
                   <Pie

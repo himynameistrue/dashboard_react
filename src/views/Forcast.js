@@ -347,9 +347,8 @@ class Tables extends React.Component {
 
                 <CardFooter>
                   <div className="chart-legend">
-
                     <i className="fa fa-circle" style={{color:'black'}}/> history of sale {" "} 
-                    <i className="fa fa-circle" style={{color:'#0080FF'}} /> forecast {" "}
+                    <i className="fa fa-circle" style={{color:'#0080FF'}} /> old forecast {" "}
                   </div>
                   <hr />
                    <div className="card-stats">

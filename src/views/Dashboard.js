@@ -133,7 +133,7 @@ class Dashboard extends React.Component {
         <Col>
         <Card>
           <CardBody>
-            <h7> SENTIMENT OF THE BRAND based on Twitter interactions </h7>
+            <h7> Opinion about your brand based on tweets </h7>
             <p> </p>
           <Badge pill variant="light" style={{fontSize:23, margin: 2, backgroundColor: '#98C1D9'}}>{this.state.positive} Positive Sentiment </Badge> 
           <Badge pill variant="light" style={{fontSize:23, margin: 2, backgroundColor: '#98C1D9'}}>{this.state.negative} Negative Sentiment </Badge> 
@@ -169,7 +169,7 @@ class Dashboard extends React.Component {
                   </div>
                   <hr />
                   <div className="card-stats">
-                    <i className="fa fa-check" /> Data information certified
+                    <i className="fa fa-check" /> The trend is computed as the number of Twitter posts that mention the brand during the year 2020
                   </div>
                 </CardFooter>
         </Card>
@@ -180,7 +180,12 @@ class Dashboard extends React.Component {
             <Col md="12">
               <Card> 
               <CardHeader>
-                  <CardTitle tag="h5">Related Hashtags to your brand</CardTitle>
+                  <CardTitle tag="h5">Terms related to your brand</CardTitle>
+                  <hr />
+            <div className="card-stats">
+              <i className="fa fa-check" /> Here you can find the most popular words in tweets that mention you! Hover the words to see the frequence
+            </div>
+            <p></p>
                   <p className="card-category">Brand Motivi</p>
                 </CardHeader>
                  <CardBody>
@@ -191,6 +196,7 @@ class Dashboard extends React.Component {
 
        
        </CardBody> 
+       
                 </Card>
                 </Col>
                 </Row>

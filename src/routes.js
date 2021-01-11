@@ -28,7 +28,7 @@ import Catwalk from "views/Catwalk.js";
 var routes = [
   {
     path: "/dashboard",
-    name: "Dashboard",
+    name: "Profile",
     icon: "nc-icon nc-circle-10",
     component: Dashboard,
     layout: "/admin",

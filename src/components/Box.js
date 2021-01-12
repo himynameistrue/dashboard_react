@@ -20,7 +20,7 @@ class Box extends Component{
     // color value by BoxContainer component as its 
     // background color 
     return <div>
-      <Tooltip title={this.props.color+': '+this.props.number}>
+      <Tooltip title={<p style={{fontSize: 18}}> {this.props.color+': '+this.props.number}</p> }>
       <div
       onClick={this.handleChangeColor}  
       style={{

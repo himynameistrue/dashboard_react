@@ -322,7 +322,7 @@ class Tables extends React.Component {
 
             <Col lg="3" md="6" sm="6">
               <p></p>
-              <Button variant="contained" color="primary" style={{ margin: "18px" }} onClick={this.loadDate} >
+              <Button variant="contained" style={{ margin: "18px", background:'#004369', color:'#ffffff' }} onClick={this.loadDate} >
                 Show Data
      </Button>
             </Col>
@@ -374,9 +374,9 @@ class Tables extends React.Component {
                     
                   /> */}
                   <p className="card-category">First 2 month of 2020:</p>
-                  <p>{this.state.data2.data.datasets[0].data[0]}</p>
+                  <p style={{fontSize:25}}>{this.state.data2.data.datasets[0].data[0]}</p>
                   <p className="card-category">Second 2 month of 2020:</p>
-                  <p>{this.state.data2.data.datasets[0].data[1]}</p>
+                  <p style={{fontSize:25}}>{this.state.data2.data.datasets[0].data[1]}</p>
                 </CardBody>
 
                 <CardFooter>

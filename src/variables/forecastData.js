@@ -32,9 +32,9 @@ const totalBackcast = {
             ],
   
           fill: false,
-          borderColor: "#000000",
-          backgroundColor: "transparent",
-          pointBorderColor: "#000000",
+          borderColor: "#EE6C4D",
+          backgroundColor: "#EE6C4D",
+          pointBorderColor: "#EE6C4D",
           pointRadius: 1,
           pointHoverRadius: 2,
           pointBorderWidth: 4,
@@ -70,9 +70,9 @@ const totalBackcast = {
             ]
           ,
           fill: false,
-          borderColor: "#0080FF",
-          backgroundColor: "transparent",
-          pointBorderColor: "#0080FF",
+          borderColor: "#3D5A80",
+          backgroundColor: "#3D5A80",
+          pointBorderColor: "#3D5A80",
           pointRadius: 1,
           pointHoverRadius: 2,
           pointBorderWidth: 4,
@@ -123,9 +123,9 @@ const totalBackcast = {
             ],
   
           fill: false,
-          borderColor: "#000000",
-          backgroundColor: "transparent",
-          pointBorderColor: "#000000",
+          borderColor: "#EE6C4D",
+          backgroundColor: "#EE6C4D",
+          pointBorderColor: "#EE6C4D",
           pointRadius: 1,
           pointHoverRadius: 2,
           pointBorderWidth: 4,
@@ -161,9 +161,9 @@ const totalBackcast = {
             ]
           ,
           fill: false,
-          borderColor: "#0080FF",
-          backgroundColor: "transparent",
-          pointBorderColor: "#0080FF",
+          borderColor: "#3D5A80",
+          backgroundColor: "#3D5A80",
+          pointBorderColor: "#3D5A80",
           pointRadius: 1,
           pointHoverRadius: 2,
           pointBorderWidth: 4,
@@ -213,9 +213,9 @@ const totalBackcast = {
             ],
   
           fill: false,
-          borderColor: "#000000",
-          backgroundColor: "transparent",
-          pointBorderColor: "#000000",
+          borderColor: "#EE6C4D",
+          backgroundColor: "#EE6C4D",
+          pointBorderColor: "#EE6C4D",
           pointRadius: 1,
           pointHoverRadius: 2,
           pointBorderWidth: 4,
@@ -251,9 +251,9 @@ const totalBackcast = {
             ]
           ,
           fill: false,
-          borderColor: "#0080FF",
-          backgroundColor: "transparent",
-          pointBorderColor: "#0080FF",
+          borderColor: "#3D5A80",
+          backgroundColor: "#3D5A80",
+          pointBorderColor: "#3D5A80",
           pointRadius: 1,
           pointHoverRadius: 2,
           pointBorderWidth: 4,
@@ -303,9 +303,9 @@ const totalBackcast = {
             ],
   
           fill: false,
-          borderColor: "#000000",
-          backgroundColor: "transparent",
-          pointBorderColor: "#000000",
+          borderColor: "#EE6C4D",
+          backgroundColor: "#EE6C4D",
+          pointBorderColor: "#EE6C4D",
           pointRadius: 1,
           pointHoverRadius: 2,
           pointBorderWidth: 4,
@@ -341,9 +341,9 @@ const totalBackcast = {
             ]
           ,
           fill: false,
-          borderColor: "#0080FF",
-          backgroundColor: "transparent",
-          pointBorderColor: "#0080FF",
+          borderColor: "#3D5A80",
+          backgroundColor: "#3D5A80",
+          pointBorderColor: "#3D5A80",
           pointRadius: 1,
           pointHoverRadius: 2,
           pointBorderWidth: 4,
@@ -1719,9 +1719,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[524.793085,
-  
-            529.143748],
+          data:[
+            //524.793085,
+            525,
+            //529.143748],
+            529],
   
           fill: false,
           borderColor: "#0080FF",
@@ -1751,8 +1753,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[523.350388,
-            531.195256],
+          data:[
+            //523.350388,
+            //531.195256],
+            523,
+            531],
   
           fill: false,
           borderColor: "#0080FF",
@@ -1782,8 +1787,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[523.777661,
-            531.540116],
+          data:[
+            //523.777661,
+            //531.540116],
+            524,
+            532],
   
           fill: false,
           borderColor: "#0080FF",
@@ -1813,8 +1821,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[524.082331,
-            531.749796],
+          data:[
+            //524.082331,
+            //531.749796],
+            524,
+            532],
   
           fill: false,
           borderColor: "#0080FF",
@@ -1844,9 +1855,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[525.089139,
- 531.828324],
-  
+          data:[
+            //525.089139,
+            //531.828324],
+            525,
+            532],
           fill: false,
           borderColor: "#0080FF",
           backgroundColor: "transparent",
@@ -1875,9 +1888,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[525.176166,
-            531.590224],
-  
+          data:[
+            //525.176166,
+            //531.590224],
+            525,
+            532],
           fill: false,
           borderColor: "#0080FF",
           backgroundColor: "transparent",
@@ -1906,8 +1921,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[524.737537,
-            532.008394],
+          data:[
+            //524.737537,
+            //532.008394],
+            525,
+            532],
   
           fill: false,
           borderColor: "#0080FF",
@@ -1938,8 +1956,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[524.826754,
-            532.004175],
+          data:[
+            //524.826754,
+            //532.004175],
+            525,
+            532],
   
           fill: false,
           borderColor: "#0080FF",
@@ -1969,8 +1990,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[524.942899,
-            531.967994],
+          data:[
+            //524.942899,
+            //531.967994],
+            525,
+            532],
   
           fill: false,
           borderColor: "#0080FF",
@@ -2000,8 +2024,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[524.082331,
-            531.749796],
+          data:[
+            //524.082331,
+            //531.749796],
+            524,
+            532],
   
           fill: false,
           borderColor: "#0080FF",
@@ -2031,8 +2058,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[525.131073,
-            531.744856],
+          data:[
+            //525.131073,
+            //531.744856],
+            525,
+            532],
   
           fill: false,
           borderColor: "#0080FF",
@@ -2062,8 +2092,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[525.087650,
-            530.304002],
+          data:[
+            //525.087650,
+            //530.304002],
+            525,
+            530],
   
           fill: false,
           borderColor: "#0080FF",
@@ -2093,8 +2126,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[524.945504
-            , 529.693620],
+          data:[
+            //524.945504,
+            //529.693620],
+            525,
+            530],
   
           fill: false,
           borderColor: "#0080FF",
@@ -2125,8 +2161,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[525.204320,
-            531.255237],
+          data:[
+            //525.204320,
+            //531.255237],
+            525,
+            531],
   
           fill: false,
           borderColor: "#0080FF",
@@ -2156,8 +2195,11 @@ const totalBackcast = {
       datasets: [
         {
           label: "chart1",
-          data:[525.199266,
-            531.094608],
+          data:[
+            //525.199266,
+            //531.094608],
+            525,
+            531],
   
           fill: false,
           borderColor: "#0080FF",

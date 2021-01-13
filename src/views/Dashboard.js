@@ -186,7 +186,7 @@ class Dashboard extends React.Component {
               <i className="fa fa-check" /> Here you can find the most popular words in tweets that mention you! Hover the words to see the frequence
             </div>
             <p></p>
-                  <p className="card-category">Brand Motivi</p>
+                  {/* <p className="card-category">Brand Motivi</p> */}
                 </CardHeader>
                  <CardBody>
               <div style={{ width: "100%", height: "100%" }}>

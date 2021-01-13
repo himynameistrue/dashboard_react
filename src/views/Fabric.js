@@ -130,7 +130,7 @@ class Map extends React.Component {
       <Col>
         <Card>
           <CardBody >
-            <h7 tag="h5"> Analyzed Patterns </h7>
+            <h7 tag="h5"> Analyzed Fabrics </h7>
             <div >
             <img src={cotton} style={{height:'4em' , width:'4em' , margin:'0.25em'}} ></img>
             <img src={denim} style={{height:'4em' , width:'4em', margin:'0.25em'}} ></img>

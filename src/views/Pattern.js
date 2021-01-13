@@ -106,7 +106,7 @@ class Notifications extends React.Component {
         <div className="content">
         <p> </p>
         <p style={{fontSize: 15, color:'#708090'}}>In this section you can find the most popular PATTERNS for the next season!</p>
-        <p style={{color:'#708090'}}>Patterns are detected from images taken from Instagram and Fashion shows. Hover on the pie to see the name and the frequence. In Total you can see the summary of the patterns for all the basic garnments, futhermore you can select a more specific category</p>
+        <p style={{color:'#708090'}}>Patterns are detected from images taken from Instagram and Fashion shows. Hover on the pie to see the name and the frequence. In Total you can see the summary of the patterns for all the basic garments, moreover you can select a more specific category</p>
        <p></p>
         <Row>
             <Col lg="3" md="6" sm="6">

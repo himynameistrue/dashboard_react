@@ -61,7 +61,7 @@ class Icons extends React.Component {
         <div className="content">
         <p> </p>
         <p style={{fontSize: 15, color:'#708090'}}>In this section you can find the most popular COLORS for the next season!</p>
-        <p style={{color:'#708090'}}>Colors are detected from images taken from Instagram and Fashion shows. Hover on the colors to see the name and the frequence. In Total you can see the summary of the colors for all the basic garnments, futhermore you can select a more specific category to see the related top colors</p>
+        <p style={{color:'#708090'}}>Colors are detected from images taken from Instagram and Fashion shows. Hover on the colors to see the name and the frequence. In Total you can see the summary of the colors for all the basic garments, moreover you can select a more specific category to see the related top colors</p>
         <p></p>
         <Row>
             <Col lg="3" md="6" sm="6">
@@ -85,25 +85,7 @@ class Icons extends React.Component {
       </Row>
           <Row>
             <Col md="6">
-              <Card>
-                <CardHeader>
-                  <CardTitle tag="h5">{this.state.name} Colors</CardTitle>
-                  <p style={{fontSize:16, color:'#708090'}}>Distribution from Fashion Shows</p>
-                </CardHeader>
-                <CardBody>
-                  <BoxContainer colors={generateColors(this.state.value)} 
-                  value={this.state.value} name='fs'
-                  
-                  />
-                
-                </CardBody>
-                <CardFooter>
-                  <hr />
-                </CardFooter>
-              </Card>
-            </Col>
-            <Col md="6">
-              <Card>
+            <Card>
                 <CardHeader>
                   <CardTitle tag="h5">{this.state.name} Colors</CardTitle>
                   <p style={{fontSize:16, color:'#708090'}}>Distribution from Instagram</p>
@@ -119,7 +101,27 @@ class Icons extends React.Component {
                   <hr />
                 </CardFooter>
               </Card>
-            </Col>
+            
+              </Col>
+            <Col md="6">
+            <Card>
+                <CardHeader>
+                  <CardTitle tag="h5">{this.state.name} Colors</CardTitle>
+                  <p style={{fontSize:16, color:'#708090'}}>Distribution from Fashion Shows</p>
+                </CardHeader>
+                <CardBody>
+                  <BoxContainer colors={generateColors(this.state.value)} 
+                  value={this.state.value} name='fs'
+                  
+                  />
+                
+                </CardBody>
+                <CardFooter>
+                  <hr />
+                </CardFooter>
+              </Card>
+            
+             </Col>
           </Row>
         </div>
       </>

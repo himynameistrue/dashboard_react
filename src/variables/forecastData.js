@@ -112,7 +112,6 @@ const totalBackcast = {
     },
 };
 
-
 const whiteSolidBackcast = {
     data: {
 

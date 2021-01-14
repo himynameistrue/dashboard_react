@@ -266,10 +266,10 @@ class Tables extends React.Component {
               <div style={{ margin: "6px" }}>
                 <select className="browser-default custom-select" onChange={this.handleChange} >
                   <option value="7">Total</option>
-                  <option value="1">dress</option>
-                  <option value="2">jacket</option>
-                  <option value="3">jumpsuit</option>
-                  <option value="4">pants</option>
+                  <option value="1">Dress</option>
+                  <option value="2">Jacket</option>
+                  <option value="3">Jumpsuit</option>
+                  <option value="4">Pants</option>
                   <option value="5">Kimono</option>
                   {/* <option value="6">SaddleBrown</option> */}
                 </select>
@@ -281,9 +281,9 @@ class Tables extends React.Component {
               <p>Choose Fabric</p>
               <div style={{ margin: "6px" }}>
                 <select className="browser-default custom-select" onChange={this.handleChange2} >
-                  <option value="1">cotton wool</option>
-                  <option value="2">denim</option>
-                  <option value="3">lace</option>
+                  <option value="1">Cotton wool</option>
+                  <option value="2">Denim</option>
+                  <option value="3">Lace</option>
                 </select>
 
               </div>
@@ -296,8 +296,8 @@ class Tables extends React.Component {
               <div style={{ margin: "6px" }}>
                 <select className="browser-default custom-select" onChange={this.handleChange} >
                   <option value="7">Total</option>
-                  <option value="1">white</option>
-                  <option value="2">indianRed</option>
+                  <option value="1">White</option>
+                  <option value="2">IndianRed</option>
                   <option value="3">RossyBrown</option>
                   <option value="4">Thistle</option>
                   <option value="5">SlateGray</option>
@@ -364,7 +364,7 @@ class Tables extends React.Component {
               <Card className="card-chart">
                 <CardHeader>
                   <CardTitle tag="h5">Forecast</CardTitle>
-                  <p className="card-category">data for 2020</p>
+                  <p className="card-category">data for 2021</p>
                 </CardHeader>
                 <CardBody>
                   {/* <Line
@@ -376,9 +376,9 @@ class Tables extends React.Component {
                     redraw
                     
                   /> */}
-                  <p className="card-category">First 2 month of 2020:</p>
+                  <p className="card-category">January and February 2021:</p>
                   <p style={{fontSize:25}}>{this.state.data2.data.datasets[0].data[0]}</p>
-                  <p className="card-category">Second 2 month of 2020:</p>
+                  <p className="card-category">March and April 2021:</p>
                   <p style={{fontSize:25}}>{this.state.data2.data.datasets[0].data[1]}</p>
                 </CardBody>
 

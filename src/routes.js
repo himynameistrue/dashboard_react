@@ -56,7 +56,7 @@ var routes = [
   },
   {
     path: "/user-page",
-    name: "Catwalks Advices",
+    name: "Catwalks Advice",
     icon: "nc-icon nc-single-02",
     component: UserPage,
     layout: "/admin",
